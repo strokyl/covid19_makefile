@@ -1,0 +1,14 @@
+(function() {
+    'use strict';
+    function setValue(name, value) {
+        document.getElementById("field-" + name).value = value;
+    }
+
+    setValue('firstname', '${default_firstname}');
+    setValue('lastname', '${default_lastname}');
+    setValue('birthday', '${default_birthday}');
+    setValue('lieunaissance', '${default_birthplace}');
+    setValue('address', '${default_address}');
+    setValue('town', '${default_town}');
+    setValue('zipcode', '${default_zipcode}');
+})();
